@@ -7,11 +7,16 @@
 package javaexamples;
 import basicsofprogram.Functions;
 
-public class PackageExample {
+
+public class PackageExample{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 Functions obj=new Functions();
+//doubt// solution- u need to create object of subclass when u extend protected class.
+//A obj1=new A();
+//obj1.method1();
+
 int a=obj.add(10,20);
 System.out.println("Sum of two number is "+a);
 System.out.print("Multiplication ");
