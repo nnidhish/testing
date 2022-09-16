@@ -16,7 +16,7 @@ public class Functions {
 		obj.div(5,5);
 
 	}
-		int add(int a,int b) {
+		public int add(int a,int b) {
 		
 			int res=a+b;
 			return res;
@@ -26,7 +26,7 @@ public class Functions {
 			int res=a-b;
 			return res;
 			}
-		void mul(int a,int b) {
+		public void mul(int a,int b) {
 	
 			int res=a*b;
 			System.out.println("result is "+res);
