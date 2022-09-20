@@ -21,6 +21,7 @@ e1.display();
 e1.init("manoj",3,100000,"tester");
 displaytitle();
 e1.display();
+
 	}
 	
 	void init(String name,int id,int sal,String Des) {
